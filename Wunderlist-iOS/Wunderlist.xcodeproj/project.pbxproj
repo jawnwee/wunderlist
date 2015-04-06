@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4C1E251AD2502300290D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C1E241AD2502300290D3B /* main.m */; };
+		EB4C1E281AD2502300290D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C1E271AD2502300290D3B /* AppDelegate.m */; };
+		EB4C1E2B1AD2502300290D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C1E2A1AD2502300290D3B /* ViewController.m */; };
+		EB4C1E301AD2502300290D3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4C1E2F1AD2502300290D3B /* Images.xcassets */; };
+		EB4C1E3F1AD2502400290D3B /* WunderlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C1E3E1AD2502400290D3B /* WunderlistTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4C1E391AD2502400290D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4C1E171AD2502300290D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4C1E1E1AD2502300290D3B;
+			remoteInfo = Wunderlist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4C1E1F1AD2502300290D3B /* Wunderlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunderlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4C1E231AD2502300290D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4C1E241AD2502300290D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4C1E261AD2502300290D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB4C1E271AD2502300290D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB4C1E291AD2502300290D3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB4C1E2A1AD2502300290D3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB4C1E2F1AD2502300290D3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB4C1E381AD2502400290D3B /* WunderlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4C1E3D1AD2502400290D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4C1E3E1AD2502400290D3B /* WunderlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WunderlistTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4C1E1C1AD2502300290D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4C1E351AD2502400290D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4C1E161AD2502300290D3B = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E211AD2502300290D3B /* Wunderlist */,
+				EB4C1E3B1AD2502400290D3B /* WunderlistTests */,
+				EB4C1E201AD2502300290D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4C1E201AD2502300290D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E1F1AD2502300290D3B /* Wunderlist.app */,
+				EB4C1E381AD2502400290D3B /* WunderlistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4C1E211AD2502300290D3B /* Wunderlist */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E261AD2502300290D3B /* AppDelegate.h */,
+				EB4C1E271AD2502300290D3B /* AppDelegate.m */,
+				EB4C1E291AD2502300290D3B /* ViewController.h */,
+				EB4C1E2A1AD2502300290D3B /* ViewController.m */,
+				EB4C1E2F1AD2502300290D3B /* Images.xcassets */,
+				EB4C1E221AD2502300290D3B /* Supporting Files */,
+			);
+			path = Wunderlist;
+			sourceTree = "<group>";
+		};
+		EB4C1E221AD2502300290D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E231AD2502300290D3B /* Info.plist */,
+				EB4C1E241AD2502300290D3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4C1E3B1AD2502400290D3B /* WunderlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E3E1AD2502400290D3B /* WunderlistTests.m */,
+				EB4C1E3C1AD2502400290D3B /* Supporting Files */,
+			);
+			path = WunderlistTests;
+			sourceTree = "<group>";
+		};
+		EB4C1E3C1AD2502400290D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C1E3D1AD2502400290D3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4C1E1E1AD2502300290D3B /* Wunderlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4C1E421AD2502400290D3B /* Build configuration list for PBXNativeTarget "Wunderlist" */;
+			buildPhases = (
+				EB4C1E1B1AD2502300290D3B /* Sources */,
+				EB4C1E1C1AD2502300290D3B /* Frameworks */,
+				EB4C1E1D1AD2502300290D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wunderlist;
+			productName = Wunderlist;
+			productReference = EB4C1E1F1AD2502300290D3B /* Wunderlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4C1E371AD2502400290D3B /* WunderlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4C1E451AD2502400290D3B /* Build configuration list for PBXNativeTarget "WunderlistTests" */;
+			buildPhases = (
+				EB4C1E341AD2502400290D3B /* Sources */,
+				EB4C1E351AD2502400290D3B /* Frameworks */,
+				EB4C1E361AD2502400290D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4C1E3A1AD2502400290D3B /* PBXTargetDependency */,
+			);
+			name = WunderlistTests;
+			productName = WunderlistTests;
+			productReference = EB4C1E381AD2502400290D3B /* WunderlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4C1E171AD2502300290D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = johnjlee;
+				TargetAttributes = {
+					EB4C1E1E1AD2502300290D3B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EB4C1E371AD2502400290D3B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EB4C1E1E1AD2502300290D3B;
+					};
+				};
+			};
+			buildConfigurationList = EB4C1E1A1AD2502300290D3B /* Build configuration list for PBXProject "Wunderlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4C1E161AD2502300290D3B;
+			productRefGroup = EB4C1E201AD2502300290D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4C1E1E1AD2502300290D3B /* Wunderlist */,
+				EB4C1E371AD2502400290D3B /* WunderlistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4C1E1D1AD2502300290D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4C1E301AD2502300290D3B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4C1E361AD2502400290D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4C1E1B1AD2502300290D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4C1E2B1AD2502300290D3B /* ViewController.m in Sources */,
+				EB4C1E281AD2502300290D3B /* AppDelegate.m in Sources */,
+				EB4C1E251AD2502300290D3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4C1E341AD2502400290D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4C1E3F1AD2502400290D3B /* WunderlistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4C1E3A1AD2502400290D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4C1E1E1AD2502300290D3B /* Wunderlist */;
+			targetProxy = EB4C1E391AD2502400290D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB4C1E401AD2502400290D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB4C1E411AD2502400290D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4C1E431AD2502400290D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wunderlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB4C1E441AD2502400290D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wunderlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB4C1E461AD2502400290D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WunderlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wunderlist.app/Wunderlist";
+			};
+			name = Debug;
+		};
+		EB4C1E471AD2502400290D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WunderlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wunderlist.app/Wunderlist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4C1E1A1AD2502300290D3B /* Build configuration list for PBXProject "Wunderlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4C1E401AD2502400290D3B /* Debug */,
+				EB4C1E411AD2502400290D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4C1E421AD2502400290D3B /* Build configuration list for PBXNativeTarget "Wunderlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4C1E431AD2502400290D3B /* Debug */,
+				EB4C1E441AD2502400290D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB4C1E451AD2502400290D3B /* Build configuration list for PBXNativeTarget "WunderlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4C1E461AD2502400290D3B /* Debug */,
+				EB4C1E471AD2502400290D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4C1E171AD2502300290D3B /* Project object */;
+}
